@@ -1,0 +1,29 @@
+{
+  "name": "jobscout",
+  "version": "1.0.0",
+  "description": "JobScout - Live job and internship finder powered by TinyFish APIs (Search, Fetch, and Agent) for the TinyFish x DTU student bounty",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "jobscout",
+    "tinyfish",
+    "job-finder",
+    "internships",
+    "dtu-bounty",
+    "ai-agent",
+    "web-search",
+    "web-fetch"
+  ],
+  "author": "JobScout Team",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "node-fetch": "^3.3.2"
+  }
+}
